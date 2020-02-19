@@ -1,0 +1,9 @@
+<h1><%=@person.first_name%>  </h1><br />
+<%= @person.first_name%><br />
+<%= @person.last_name %><br />
+<%= @person.age %><br />
+<%= @person.hair_color %> <br />
+ <%=@person.eye_color%><br />
+<%= @person.gender%><br />
+<p>Are they alive? <%= @person.alive %> <p><br />
+<%= link_to 'Back', people_path %>
