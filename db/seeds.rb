@@ -16,13 +16,12 @@
     gender: Faker::Gender.binary_type,
     alive: rand(2).odd? ? true : false
   )
-  # Has many notes lets make number of notes random for each contact
-  
-  3.times do 
-    team = Team.create(
-    name: Faker::Sports::Football.team,
-    coach: Faker::Sports::Football.coach,
-    player: Faker::Sports::Football.player,
-  )
-  end
+#   # Has many notes lets make number of notes random for each contact
+#     1.times do 
+#       person.teams.create(
+#     name: Faker::Sports::Football.team,
+#     coach: Faker::Sports::Football.coach,
+#     player: Faker::Sports::Football.player,
+#   )
+#     end 
 end
